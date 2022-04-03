@@ -1,0 +1,58 @@
+.actions-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 600px;
+  background-color: rgb(223, 240, 255);
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.takets {
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+  margin-bottom: 51px;
+  color: rgb(74, 86, 138);
+}
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.scorePlace {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  height: 60%;
+  background-color: aliceblue;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  font-size: 35px;
+  font-family: "Lobster", cursive;
+}
+
+.pla {
+  margin: 15px;
+  color: rgb(74, 86, 138);
+  display: flex;
+  justify-content: space-between;
+}
+
+.backBtn {
+  position: absolute;
+  bottom: 0;
+  background-color: #4a568a;
+  color: white;
+  bottom: -15px;
+  font-size: 30px;
+}
+
+.header {
+  color: #c989c2;
+}

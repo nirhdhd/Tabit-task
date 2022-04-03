@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600;700;800&display=swap");
+
+.app-container {
+  width: 1100px;
+  height: 500px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  //   background-size: cover;
+  //   background-position: center;
+}
+
+.nameInput {
+  font-size: 18px;
+}
+
+// .title {
+//   font-family: "Lobster", cursive;
+//   font-size: 85px;
+//   margin-bottom: 100px;
+// }
+
+////////////////
+.title {
+  font-family: "Lobster", cursive;
+  font-size: 85px;
+  margin-bottom: 90px;
+
+  color: rgb(74, 86, 138);
+  transform: translatey(0px);
+  user-select: none;
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    text-shadow: -2px 5px 10px #8893c7;
+    transform: translatey(0px);
+  }
+  50% {
+    text-shadow: -2px 5px 10px #8893c7;
+    transform: translatey(-20px);
+  }
+  100% {
+    text-shadow: -2px 5px 10px #8893c7;
+    transform: translatey(0px);
+  }
+}
+
+///////////////////
+.name-container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.774);
+}
+
+.startBtn {
+  background-color: #4a568a;
+  color: white;
+  font-size: 20px;
+}
+
+//////////////////////
+// .neonText {
+//   animation: flicker 1.5s infinite alternate;
+//   color: #fff;
+// }
+
+// h1 {
+//   font-size: 4.2rem;
+// }
+
+// /* Flickering animation */
+// @keyframes flicker {
+//   0%,
+//   18%,
+//   22%,
+//   25%,
+//   53%,
+//   57%,
+//   100% {
+//     text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa,
+//       0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
+//   }
+
+//   20%,
+//   24%,
+//   55% {
+//     text-shadow: none;
+//   }
+// }
+
+// /* Additional styling */
+
+// h2 {
+//   font-size: 1.8rem;
+// }
+// .container {
+//   margin-top: 20vh;
+// }
+
+// body {
+//   font-size: 18px;
+//   font-family: "Helvetica Neue", sans-serif;
+//   background-color: #010a01;
+// }
+
+// h1,
+// h2 {
+//   text-align: center;
+//   text-transform: uppercase;
+//   font-weight: 400;
+// }

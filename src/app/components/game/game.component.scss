@@ -1,0 +1,86 @@
+.cells-container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+  font-size: 20px;
+}
+
+.actions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 450px;
+  background-color: rgb(223, 240, 255);
+  border-radius: 20px;
+  margin-top: 70px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.takets {
+  font-family: "Lobster", cursive;
+  font-size: 85px;
+  padding-bottom: 25px;
+  color: rgb(74, 86, 138);
+  transform: translatey(0px);
+  user-select: none;
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    text-shadow: -2px 5px 10px #8893c7;
+    transform: translatey(0px);
+  }
+  50% {
+    text-shadow: -2px 5px 10px #8893c7;
+    transform: translatey(-20px);
+  }
+  100% {
+    text-shadow: -2px 5px 10px #8893c7;
+    transform: translatey(0px);
+  }
+}
+.gameContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.backBtn {
+  position: absolute;
+  left: 30px;
+  bottom: 0;
+  background-color: #4a568a;
+  color: white;
+  font-size: 20px;
+}
+.or {
+  font-size: 45px;
+  font-family: "Lobster", cursive;
+  color: #4a568a;
+  height: 20px;
+  //margin-top: 10px;
+  margin: 15px;
+  user-select: none;
+  margin-bottom: 25px;
+}
+.option1 {
+  height: 50px;
+  width: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.option2 {
+  height: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}

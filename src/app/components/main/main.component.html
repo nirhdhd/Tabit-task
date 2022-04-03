@@ -1,0 +1,14 @@
+<div class="app-container">
+  <h1 class="title">Bowling game</h1>
+
+  <mat-card class="name-container">
+    <h2 class="neonText">Please enter your name:</h2>
+    <mat-form-field class="nameInput" appearance="outline">
+      <mat-label>Name</mat-label>
+      <input #playerName matInput placeholder="Your name" />
+    </mat-form-field>
+    <button class="startBtn" (click)="start()" mat-raised-button>
+      start game
+    </button>
+  </mat-card>
+</div>

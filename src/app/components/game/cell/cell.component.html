@@ -1,0 +1,16 @@
+<div id="{{ index }}" class="cell">
+  <div class="sub-cell">
+    <span [class.strike]="_values[0] === 10" class="1">{{
+      _values[0] == -1 || _values[0] === 10 ? "" : _values[0]
+    }}</span>
+    <span [class.spare]="_values[0] + _values[1] === 10" class="2"
+      >{{
+        _values[1] == -1 || _values[0] + _values[1] === 10 ? "" : _values[1]
+      }}
+    </span>
+    <span *ngIf="index == 9" class="2"
+      >{{ _values[1] == -1 ? "" : _values[1] }}
+    </span>
+  </div>
+  {{ _values[2] == -1 || _values[4] == 0 ? "" : _values[2] }}
+</div>

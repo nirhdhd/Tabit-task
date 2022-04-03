@@ -1,0 +1,44 @@
+.cell {
+  position: relative;
+  height: 100%;
+  width: 100px;
+  border: 3px solid #6771a3;
+  background-color: rgba(198, 236, 255, 0.747);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  user-select: none;
+}
+
+span {
+  border: 1px solid rgb(133, 46, 155);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.sub-cell {
+  position: absolute;
+  width: 60px;
+  display: flex;
+  right: -2px;
+  top: -1px;
+  background-color: rgb(220, 200, 245);
+  user-select: none;
+}
+
+////////////////////
+.spare {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid #4a568a;
+  border-left: 30px solid transparent;
+}
+
+.strike {
+  background-color: #4a568a;
+}

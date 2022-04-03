@@ -1,0 +1,17 @@
+<div class="gameContainer">
+  <div class="actions-container">
+    <h1 class="takets">Top 5 players with the best score</h1>
+    <div class="scorePlace">
+      <div class="pla header">
+        <span> No.</span><span>Name</span><span>Score</span>
+      </div>
+      <div *ngFor="let u of users; let i = index" class="pla">
+        <span>{{ i + 1 }}.</span><span>{{ u.name }}</span
+        ><span>{{ u.score }}</span>
+      </div>
+    </div>
+    <button class="backBtn" (click)="goBack()" mat-raised-button>
+      Back to Main
+    </button>
+  </div>
+</div>
